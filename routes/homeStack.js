@@ -15,6 +15,7 @@ import ProfileTwo from "../app/screens/ProfileTwo";
 import ProfileThree from "../app/screens/ProfileThree";
 import AddScreen from "../app/screens/AddScreen";
 import ConnectionsScreen from "../app/screens/ConnetionsScreen";
+import ConnectionsScreen2 from "../app/screens/ConnectionScreen2";
 
 const screens = {
   GetStarted : {
@@ -61,6 +62,9 @@ const screens = {
     },
     Connections: {
         screen: ConnectionsScreen
+    },
+    Connections2: {
+        screen: ConnectionsScreen2
     }
 }
 
